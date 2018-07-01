@@ -247,11 +247,11 @@ public class EditorActivity extends AppCompatActivity implements
             // Show a toast message depending on whether or not the insertion was successful.
             if (newUri == null) {
                 // If the new content URI is null, then there was an error with insertion.
-                Toast.makeText(this, getString(R.string.editor_insert_pet_failed),
+                Toast.makeText(this, getString(R.string.editor_insert_thought_failed),
                         Toast.LENGTH_SHORT).show();
             } else {
                 // Otherwise, the insertion was successful and we can display a toast.
-                Toast.makeText(this, getString(R.string.editor_insert_pet_successful),
+                Toast.makeText(this, getString(R.string.editor_insert_thought_successful),
                         Toast.LENGTH_SHORT).show();
             }
         } else {
@@ -264,11 +264,11 @@ public class EditorActivity extends AppCompatActivity implements
             // Show a toast message depending on whether or not the update was successful.
             if (rowsAffected == 0) {
                 // If no rows were affected, then there was an error with the update.
-                Toast.makeText(this, getString(R.string.editor_update_pet_failed),
+                Toast.makeText(this, getString(R.string.editor_update_thought_failed),
                         Toast.LENGTH_SHORT).show();
             } else {
                 // Otherwise, the update was successful and we can display a toast.
-                Toast.makeText(this, getString(R.string.editor_update_pet_successful),
+                Toast.makeText(this, getString(R.string.editor_update_thought_successful),
                         Toast.LENGTH_SHORT).show();
             }
         }
@@ -499,11 +499,11 @@ public class EditorActivity extends AppCompatActivity implements
             // Show a toast message depending on whether or not the delete was successful.
             if (rowsDeleted == 0) {
                 // If no rows were deleted, then there was an error with the delete.
-                Toast.makeText(this, getString(R.string.editor_delete_pet_failed),
+                Toast.makeText(this, getString(R.string.editor_delete_thought_failed),
                         Toast.LENGTH_SHORT).show();
             } else {
                 // Otherwise, the delete was successful and we can display a toast.
-                Toast.makeText(this, getString(R.string.editor_delete_pet_successful),
+                Toast.makeText(this, getString(R.string.editor_delete_thought_successful),
                         Toast.LENGTH_SHORT).show();
             }
         }

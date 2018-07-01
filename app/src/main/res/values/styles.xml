@@ -3,8 +3,8 @@
 <resources>
     <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/sign_in_background</item>
-        <item name="colorPrimaryDark">@color/sign_in_statusbar_color</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
@@ -22,8 +22,8 @@
     <style name="loginTheme" parent="FirebaseUI">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="colorPrimaryDark">@color/sign_in_statusbar_color</item>
-        <item name="android:windowBackground">@color/sign_in_background</item>
-        <item name="background">@color/sign_in_background</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!--item name="background">@color/colorAccent</item>-->
     </style>
 </resources>

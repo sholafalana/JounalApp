@@ -26,6 +26,7 @@ public final class JournalContract {
 
     private JournalContract() {}
 
+
 //    content authority is set up
     public static final String CONTENT_AUTHORITY = "com.feghas.jounalapp.data";
 

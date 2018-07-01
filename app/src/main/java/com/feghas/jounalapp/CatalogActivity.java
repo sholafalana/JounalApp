@@ -33,8 +33,8 @@ import java.util.Arrays;
 public class CatalogActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
-    /** Identifier for the pet data loader */
-    private static final int PET_LOADER = 0;
+    /** Identifier for the thought data loader */
+    private static final int THOUGHT_LOADER = 0;
 
     private static final int RC_SIGN_IN = 123;
 
@@ -59,10 +59,7 @@ public class CatalogActivity extends AppCompatActivity implements
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
-
-//                    Intent login= new Intent(HomeActivity.this,MasterDashboard.class);
-//                    startActivity(login);
-//                    finish();
+                    
 
                 } else {
 
@@ -70,8 +67,8 @@ public class CatalogActivity extends AppCompatActivity implements
                     startActivityForResult(
                             AuthUI.getInstance()
                                     .createSignInIntentBuilder()
-//                                    .setTheme(R.style.loginTheme)
-//                                    .setLogo(R.drawable.ic_launcher_foreground)
+                                    .setTheme(R.style.loginTheme)
+                                    .setLogo(R.drawable.ic_launcher_foreground)
                                     .setAvailableProviders(Arrays.asList(
                                             new AuthUI.IdpConfig.GoogleBuilder().build(),
                                             new AuthUI.IdpConfig.EmailBuilder().build()))
@@ -128,7 +125,7 @@ public class CatalogActivity extends AppCompatActivity implements
         });
 
         // Kick off the loader
-        getLoaderManager().initLoader(PET_LOADER, null, this);
+        getLoaderManager().initLoader(THOUGHT_LOADER, null, this);
     }
 
 
@@ -232,7 +229,7 @@ public class CatalogActivity extends AppCompatActivity implements
 
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
-        // Update {@link ThoughtsCursorAdapter} with this new cursor containing updated thoughts data
+        // Update {@link ThoughtsCursorAdapter} with this new cursor containing updated pet data
         mCursorAdapter.swapCursor(data);
     }
 
