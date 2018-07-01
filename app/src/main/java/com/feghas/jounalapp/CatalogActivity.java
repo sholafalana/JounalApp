@@ -59,7 +59,7 @@ public class CatalogActivity extends AppCompatActivity implements
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
-                    
+
 
                 } else {
 
@@ -210,7 +210,7 @@ public class CatalogActivity extends AppCompatActivity implements
 
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
-        // Define a projection that specifies the columns from the table we care about.
+        //Define a projection that specifies the columns from the table we care about.
         String[] projection = {
                 JournalContract.JournalEntry._ID,
                 JournalContract.JournalEntry.COLUMN_DATE,
