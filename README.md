@@ -26,6 +26,7 @@ The User will the be presented with the Login Page, where they are required to a
 
 
 Lists the entries made by the user. One can delete or modify any diary entry.
+The application can be downloaded at https://github.com/sholafalana/JounalApp/blob/master/app-debug-1.apk
 
    
 Author
