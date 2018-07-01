@@ -1,7 +1,7 @@
 # JounalApp
 Alc 3.0 challenge
 
-The application uses the Architecture Components. I have used the following components for application development:
+The application uses the Architecture Components. I have used the following components for the application development:
 
     FireStore - For offline data persistence and real time updates
     ViewModel - Manage your UI's data in a lifecycle-aware fashion
