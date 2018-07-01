@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application -->
+    <string name="app_name">Journal App</string>
+
+
+    <!-- Label for overflow menu option that deletes all Journal data in the app -->
+    <string name="action_delete_all_entries">Delete All Entries</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a Thought  -->
+    <string name="empty_view_subtitle_text">Get started by adding your thoughts</string>
+
+    <!-- Title for the activity to add a new Thought -->
+    <string name="editor_activity_title_new_thought">Add a thought</string>
+
+    <!-- Title for the activity to edit an existing Thought -->
+    <string name="editor_activity_title_edit_thought">Edit Thoughts</string>
+
+    <!-- Label for editor menu option to save thought and leave editor -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current thought -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new thought has been successfully inserted  -->
+    <string name="editor_insert_thought_successful">Thought saved</string>
+
+    <!-- Toast message in editor when new thought failed to be inserted  -->
+    <string name="editor_insert_thought_failed">Error with saving Thoughts</string>
+
+    <!-- Toast message in editor when current thought was successfully updated  -->
+    <string name="editor_update_thought_successful">Journal updated</string>
+
+    <!-- Toast message in editor when current pet has failed to be updated -->
+    <string name="editor_update_thought_failed">Error with updating Journal</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes  -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes  -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current thought  -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current thought was successfully deleted  -->
+    <string name="editor_delete_thought_successful">Thoughts deleted</string>
+
+    <!-- Toast message in editor when current thought has failed to be deleted -->
+    <string name="editor_delete_thought_failed">Error with deleting Thoughts</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current thought -->
+    <string name="delete_dialog_msg">Delete this Thought?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current thought -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current thought -->
+    <string name="cancel">Cancel</string>
+
+</resources>

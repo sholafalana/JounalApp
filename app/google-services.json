@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "398281474298",
+    "firebase_url": "https://journal-app-final.firebaseio.com",
+    "project_id": "journal-app-final",
+    "storage_bucket": "journal-app-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398281474298:android:65383fa3cb839f5f",
+        "android_client_info": {
+          "package_name": "com.feghas.jounalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398281474298-fg1rv04k3o8aeb8r99kh3ksep1l2pk7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjnQfoGFMcWOfS4EiUeYH-ScUDKJL6DqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

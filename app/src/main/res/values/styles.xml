@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/sign_in_background</item>
+        <item name="colorPrimaryDark">@color/sign_in_statusbar_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Style for an EditText field in the editor -->
+    <style name="EditorFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+
+    <!-- Style for firebase login -->
+    <style name="loginTheme" parent="FirebaseUI">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/sign_in_statusbar_color</item>
+        <item name="android:windowBackground">@color/sign_in_background</item>
+        <item name="background">@color/sign_in_background</item>
+    </style>
+</resources>
