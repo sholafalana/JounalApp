@@ -1,12 +1,6 @@
 # JounalApp
 Alc 3.0 challenge
 
-The application uses the Architecture Components. I have used the following components for the application development:
-
-    FireStore - For offline data persistence and real time updates
-    ViewModel - Manage your UI's data in a lifecycle-aware fashion
-    Material components - To give the dashing new feel for views
-    ButterKnife - (view injection) minimize the glue code necessary to bind your application logic and layouts.
 
 Prerequisites
 
